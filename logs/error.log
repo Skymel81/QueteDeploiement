@@ -177,3 +177,7 @@
 2025/05/06 20:15:32 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
 2025/05/06 20:15:39 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
 2025/05/06 20:15:50 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2025/05/07 08:06:31 [error] 31#31: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.27.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8000"
+2025/05/07 08:06:35 [error] 31#31: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.27.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8000"
+2025/05/07 08:06:36 [error] 31#31: *3 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.27.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8000"
+2025/05/07 08:06:36 [error] 31#31: *4 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.27.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8000"
