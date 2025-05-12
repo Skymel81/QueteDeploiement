@@ -50,7 +50,7 @@ function AddWilder() {
         value={city}
         onChange={(e) => setCity(e.target.value)}
       />
-      <Button>rend fou NOOBS</Button>
+      <Button>AYER ???? </Button>
     </Form>
   );
 }
